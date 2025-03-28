@@ -1,0 +1,14 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "https://reqres.in/api/:path*"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ],
+    "headers": [
+    ]
+}
