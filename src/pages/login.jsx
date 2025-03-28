@@ -6,8 +6,8 @@ import { DataContext } from '../context/DataProvider';
 import toast from 'react-hot-toast';
 
 const Login = () => {
-  const [email, setEmail] = useState('eve.holt@reqres.in');
-  const [password, setPassword] = useState('cityslicka');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
   const navigate = useNavigate();
