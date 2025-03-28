@@ -2,6 +2,46 @@
 
 A React-based user management system that integrates with the Reqres API to perform basic user management functions.
 
+## Technologies Used
+
+- React.js
+- React Router DOM
+- Axios for API calls
+- Tailwind CSS for styling
+- React Hot Toast for notifications
+- Context API for state management
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/prathamesh424/EmployWise.git
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
 ## Features
 
 - **Authentication**
@@ -26,45 +66,6 @@ A React-based user management system that integrates with the Reqres API to perf
   - Modal dialogs for actions
   - Clean and modern interface
 
-## Technologies Used
-
-- React.js
-- React Router DOM
-- Axios for API calls
-- Tailwind CSS for styling
-- React Hot Toast for notifications
-- Context API for state management
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone <https://github.com/prathamesh424/EmployWise.git>
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-# or
-yarn install
-```
-
-3. Start the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
 
 ### Environment Variables
 
